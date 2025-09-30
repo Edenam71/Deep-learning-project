@@ -44,11 +44,12 @@ Each method was applied to both **MNIST** and **CIFAR-10** datasets.
 - **CIFAR-10**: 32×32 RGB images from 10 natural image classes
 ---
 
-## 🛠️ Project Structure
+## 🛠 Project Structure
+```text
 .
 ├── .idea/                 # IDE settings (can be ignored)
 ├── __pycache__/          # Python cache (can be ignored)
-├── data/                 # Contains datasets 
+├── data/                 # Contains datasets
 ├── models/               # Saved models
 ├── results/              # Output JSON results per task
 ├── training/             # Scripts for training tasks
@@ -58,7 +59,7 @@ Each method was applied to both **MNIST** and **CIFAR-10** datasets.
 ├── _report_evaluation.py # Report generator
 ├── dry.pdf               # Theoretical Q&A answers
 ├── wet.pdf               # Full experiment report
----
+
 
 ## ⚙️ Usage
 
